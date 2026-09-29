@@ -1,0 +1,23 @@
+Wii Fit Giant Trackpad — Third-Party Notices
+=============================================
+
+This project follows the application structure and release patterns of the
+author's Vibe SpaceMouse Bridge for Codex project (MIT).
+
+hidapi / cython-hidapi
+----------------------
+Python HID access is provided by cython-hidapi and its bundled hidapi library.
+See https://github.com/trezor/cython-hidapi and
+https://github.com/libusb/hidapi for their license texts and notices.
+
+Protocol references
+-------------------
+The Wii Remote and Balance Board wire formats are publicly documented by the
+WiiBrew community. The implementation was independently written from those
+protocol descriptions. WeBalanceBored's protocol documentation and fixtures
+were consulted to cross-check report offsets and calibration ordering; no
+source file from that project is included here.
+
+Nintendo, Wii, Wii Fit, and Wii Balance Board are trademarks of Nintendo.
+This project is independent and is not affiliated with or endorsed by Nintendo.
+
